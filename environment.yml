@@ -1,0 +1,20 @@
+name: forcePlate
+channels:
+  - https://repo.anaconda.com/pkgs/main
+  - https://repo.anaconda.com/pkgs/r
+dependencies:
+  - python=3.12.3
+  - numpy
+  - scipy
+  - ipykernel
+  - pandas
+  - jupyter
+  - chardet
+  - openpyxl
+  - seaborn
+  - matplotlib
+  - scikit-learn
+  - pip:
+    - ipykernel
+    - pyentrp==1.0.0
+    - XlsxWriter==3.2.2
